@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Example 1 (Valid Division)",
+      "setup": "javac src/DivisionHandling.java",
+      "run": "java -cp src DivisionHandling",
+      "input": "10 2",
+      "output": "5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Example 2 (Divide by Zero)",
+      "setup": "javac src/DivisionHandling.java",
+      "run": "java -cp src DivisionHandling",
+      "input": "10 0",
+      "output": "Divide by zero error",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
